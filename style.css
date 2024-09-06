@@ -1,0 +1,319 @@
+@font-face {
+    font-family: china;
+    src: url(./NeueMachina-Light.woff2);
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+html,
+body{
+    height: 100%;
+    width: 100%;
+    padding: 30px 30px;
+}
+section{
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 10px;
+    
+}
+.part2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 90px;
+    gap: 100px;
+}
+nav h1 i{
+    /* rotate: 45deg;
+    display: inline-block; */
+    font-size: 75px;
+}
+nav h1{
+    font-size: 60px;
+    font-weight: bold;
+    padding: 90px 150px;
+}
+nav h4{
+    font-size: 50px;
+    font-weight: 400;
+}
+nav button{
+    padding: 25px 30px;
+    font-size: 50px;
+    background-color: transparent;
+    border-radius: 10px;
+    font-weight: 400;
+    border: 1px solid #000;
+}
+.center{
+    padding: 10px 110px;
+    height: 70%;
+    width: 100%;
+    display: flex;
+}
+.center1{
+    height: 90%;
+    width: 44%;
+}
+
+.center1 h1{
+    padding: 10px;
+    font-size: 130px;
+    font-family: china;
+}
+.center1 p{
+    font-size: 40px;
+    width: 90%;
+    font-family: china;
+    padding: 10px;
+}
+
+.center1 button{
+    background-color: #000;
+    color: white;
+    margin-top: auto;
+    font-size: 40px;
+    font-weight: 600;
+    padding: 30px 40px;
+    font-family: china;
+    border-radius: 20px;
+    margin-top: 60px;
+    margin-bottom: 35px;
+}
+.center2{
+    height: 100%;
+    width: 65%;
+    position: relative;
+}
+
+.center2 img{
+    position: absolute;
+    right: 0;
+    height: 90%;
+}
+
+.section1bottom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    padding: 30px 110px;
+
+}
+.section1bottom img{
+    height: 80px;
+}
+/* page 2 */
+.section2 .services{
+    padding: 140px 120px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 60px;
+}
+
+.services h1{
+background-color: #B9FF66;
+font-weight: 500;
+padding: 10px 10px;
+border-radius: 10px;
+font-size: 110px;
+font-weight: 500;
+font-family: china;
+}
+
+.services p{
+    width: 40%;
+    font-size: 40px;
+    font-weight: 400;
+    font-family: china;
+}
+.container{
+    height: 80%;
+    width: 100%;
+    padding: 10px 10px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.elem{
+    flex-shrink: 0;
+    height: 525px;
+    width: 45%;
+    border: 2px solid black;
+    border-radius: 70px;
+    padding: 30px 90px;
+    font-size: 40px;
+    background-color: transparent;
+    box-shadow: 0px 15px 0px black;
+    display: flex;
+}
+
+
+.elem-part1{
+    font-size: 40px;
+    height: 100%;
+    width: 60%;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 10px 30px;
+}
+.elem-part2{
+    height: 100%;
+    width: 50%;
+}
+
+.elem-part2 img{
+    height: 100%;
+}
+.elem-part2 h1{
+    font-size: 45px;
+    width: fit-content;
+    font-weight: 500;
+    background-color: #B9FF66;
+}
+
+.elem-part1 h4{
+    margin-top: 200px;
+    display: flex;
+    align-items: center;
+    font-size: 40px;
+    font-weight: 500;
+    gap: 30px;
+}
+.elem-part1 i{
+    padding: 30px;
+    background-color: black;
+    color: white;
+    border-radius: 50%;
+}
+
+.black{
+    background-color: #1F1F1F;
+    color: white;
+}
+
+.section3{
+    height: 115%;
+    width: 100%;
+}
+.section3 .mobile{
+    margin-top: 300px;
+    height: 900px;
+    width: 100%;
+    padding: 40px 100px;
+}
+.redmi{
+        height: 800px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 60px;
+        background-color: #F3F3F3;
+    }
+.redmi-part1{
+    padding: 60px 150px;
+}
+.redmi-main{
+    padding: 80px 90px;
+}
+.redmi h3{
+    align-items: flex-start;
+    margin-top: 1px;
+    font-size: 60px;
+    font-family: china;
+    height: 100%;
+    width: 60%;
+    justify-content: space-between;
+    padding: 10px 90px;
+}
+
+.redmi p{
+    font-size: 40px;
+    font-family: china;
+    height: 100%;
+    width: 80%;
+    justify-content: space-between;
+    padding: 10px 90px;
+}
+
+.redmi button{
+    padding: 30px 40px;
+    font-size: 50px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    font-weight: 400;
+    border: 1px solid #000;
+}
+
+.redmi img{
+    padding: 20px 200px;
+    height: 900px;
+    width: 1200px;
+}
+
+.mobile .nokia{
+    padding: 240px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 60px;
+}
+.nokia h1{
+    background-color: #B9FF66;
+    font-weight: 500;
+    padding: 10px 10px;
+    border-radius: 10px;
+    font-size: 110px;
+    font-weight: 500;
+    font-family: china;
+}
+
+.nokia p{
+    width: 60%;
+    font-size: 40px;
+    font-weight: 400;
+    font-family: china;
+}
+
+#page2{
+    height: 100vh;
+    width: 100%;
+    padding: 1vw 0;
+}
+#move{
+    display: flex;
+    padding: 3vw 0;
+    overflow: hidden;
+}
+.marque{
+    flex-shrink: 0;
+    background-color:#FFFFFF;
+    display: flex;
+    align-items: center;
+    gap: 6vw;
+    padding: 1vw 1.5vw;
+    transform: translateX(-100%);
+}
+.marque h1{
+    flex-shrink: 0;
+    font-size: 4vw;
+    font-family: china;
+}
+.marque img{
+    height: 4vw;
+    width: 100%;
+}
