@@ -37,7 +37,7 @@
 <p>To set up the project locally, follow these straightforward steps:</p>
 <ol>
   <li>Clone the repository to your local machine using the following command:
-    <pre><code>git clone https://github.com/yourusername/animated-website.git</code></pre>
+    <pre><code>git clone https://github.com/shubhankarraj40/Animated-Website.git</code></pre>
   </li>
   <li>Navigate into the project directory:
     <pre><code>cd animated-website</code></pre>
