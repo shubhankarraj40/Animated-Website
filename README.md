@@ -61,9 +61,27 @@
 <p>For example, to animate an element with the class of <code>.box</code>, you can include the following code in <code>script.js</code>:</p>
 
 ```javascript
-gsap.to(".box", {
-  duration: 1.5,
-  x: 200,
-  ease: "power2.inOut",
-  opacity: 1,
-});
+var tl = gsap.timeline()
+tl.from("nav h1, nav h4, nav button",{
+y:-40,
+duration:0.5,
+delay:0.6,
+opacity:0,
+stagger:0.15,
+})
+tl.from(".center1 h1,.center1 p,.center1 button",{
+x:-300,
+duration:0.4,
+opacity:0,
+})
+tl.from(".center2 img",{
+x:300,
+opacity:0,
+duration:0.5,
+})//  },"-=1")--> 1secound pehle hin chal gya iske karan
+
+tl.from(".section1bottom img",{
+    opacity:0,
+    duration:0.5,
+
+},"-=1")
