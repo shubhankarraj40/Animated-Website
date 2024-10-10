@@ -1,60 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>README - Animated Website Project</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>README for Animated Website</title>
 </head>
 <body>
-    <h1>Animated Website Project</h1>
-    <p>This project is an animated website built using <strong>GSAP (GreenSock Animation Platform)</strong>, along with HTML, CSS, and JavaScript. The animations bring dynamic and engaging elements to the website, enhancing user experience and interactivity.</p>
 
-    <h2>Table of Contents</h2>
-    <ul>
-        <li><a href="#features">Features</a></li>
-        <li><a href="#technologies">Technologies Used</a></li>
-        <li><a href="#setup">Setup Instructions</a></li>
-        <li><a href="#usage">Usage</a></li>
-        <li><a href="#credits">Credits</a></li>
-        <li><a href="#license">License</a></li>
-    </ul>
+<h1 align="center">Animated Website with GSAP</h1>
 
-    <h2 id="features">Features</h2>
-    <ul>
-        <li>Custom animations powered by GSAP</li>
-        <li>Responsive design using CSS for various screen sizes</li>
-        <li>Interactive UI components driven by JavaScript</li>
-        <li>Smooth transitions and modern animations</li>
-    </ul>
+<p align="center">
+  <img src="https://img.shields.io/badge/GSAP-3.0.0-brightgreen" alt="GSAP Version">
+  <img src="https://img.shields.io/badge/HTML-CSS-JavaScript-yellowgreen" alt="Tech Stack">
+</p>
 
-    <h2 id="technologies">Technologies Used</h2>
-    <ul>
-        <li><strong>HTML5</strong> - Structure of the webpage</li>
-        <li><strong>CSS3</strong> - Styling and layout</li>
-        <li><strong>JavaScript (ES6)</strong> - Interactivity and logic</li>
-        <li><strong>GSAP (GreenSock Animation Platform)</strong> - Animation library for smooth animations</li>
-    </ul>
+<p align="center">
+  This project uses <strong>GSAP</strong> (GreenSock Animation Platform) to create smooth and interactive animations for a modern, animated website. GSAP provides a powerful, lightweight animation library that is optimized for performance across all devices.
+</p>
 
-    <h2 id="setup">Setup Instructions</h2>
-    <p>To run this project locally, follow these steps:</p>
-    <ol>
-        <li>Clone the repository: <code>git clone https://github.com/yourusername/animated-website.git</code></li>
-        <li>Navigate to the project directory: <code>cd animated-website</code></li>
-        <li>Open the <code>index.html</code> file in your browser to view the website.</li>
-    </ol>
+<h2>🔗 Live Demo</h2>
+<p>Check out the live version of the project <a href="https://yourwebsite.com" target="_blank">here</a>.</p>
 
-    <h2 id="usage">Usage</h2>
-    <p>This website demonstrates various animations for enhancing user experience. You can customize the animations by modifying the <code>app.js</code> file, where GSAP animations are initialized.</p>
+<h2>📂 Project Structure</h2>
+<ul>
+  <li><code>index.html</code> - The main HTML file that serves as the entry point for the website.</li>
+  <li><code>style.css</code> - Contains all the styles for the website's layout and design.</li>
+  <li><code>script.js</code> - This file manages all the GSAP animations and interactions.</li>
+</ul>
 
-    <h2 id="credits">Credits</h2>
-    <ul>
-        <li><a href="https://greensock.com/gsap/">GSAP (GreenSock Animation Platform)</a> for the animation library</li>
-        <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML">HTML5 Documentation</a> for the structure of the webpage</li>
-        <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS">CSS3 Documentation</a> for styling and layout</li>
-        <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">JavaScript Documentation</a> for the interactive components</li>
-    </ul>
+<h2>✨ Features</h2>
+<ul>
+  <li>Interactive, responsive animations using GSAP.</li>
+  <li>Smooth transitions and scroll-based animations.</li>
+  <li>Cross-browser compatible and optimized for performance.</li>
+</ul>
 
-    <h2 id="license">License</h2>
-    <p>This project is licensed under the <a href="https://opensource.org/licenses/MIT">MIT License</a>.</p>
+<h2>🚀 Technologies Used</h2>
+<ul>
+  <li><strong>HTML5</strong> - For the website's structure.</li>
+  <li><strong>CSS3</strong> - For styling and layout design.</li>
+  <li><strong>JavaScript</strong> - For interactivity and dynamic behavior.</li>
+  <li><strong>GSAP</strong> - For all animations and visual effects.</li>
+</ul>
+
+<h2>📦 Installation</h2>
+<ol>
+  <li>Clone the repository: <code>git clone https://github.com/yourusername/animated-website.git</code></li>
+  <li>Open the <code>index.html</code> file in your browser to view the website.</li>
+</ol>
+
+<h2>💡 Usage</h2>
+<p>All animations are managed through GSAP. You can modify and customize the animations by editing the <code>script.js</code> file. GSAP provides a flexible API to create various animations like fades, scaling, rotations, and more.</p>
+
+<h2>🤝 Contributing</h2>
+<p>Contributions are welcome! Feel free to open issues or submit a pull request.</p>
+
+<h2>📄 License</h2>
+<p>This project is licensed under the <a href="LICENSE" target="_blank">MIT License</a>.</p>
+
+<p align="center">Made with ❤️ by Shubhankar</p>
+
 </body>
 </html>
