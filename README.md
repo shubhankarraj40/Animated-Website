@@ -1,18 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>README for Animated Website</title>
+
+  <h1>README for Animated Website</h1>
 </head>
 <body>
 
 <h1 align="center">Animated Website with GSAP</h1>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/GSAP-3.0.0-brightgreen" alt="GSAP Version">
-  <img src="https://img.shields.io/badge/HTML-CSS-JavaScript-yellowgreen" alt="Tech Stack">
-</p>
 
 <p align="center">
   This project uses <strong>GSAP</strong> (GreenSock Animation Platform) to create smooth and interactive animations for a modern, animated website. GSAP provides a powerful, lightweight animation library that is optimized for performance across all devices.
@@ -43,21 +34,26 @@
   <li><strong>GSAP</strong> - For all animations and visual effects.</li>
 </ul>
 
-<h2>📦 Installation</h2>
+<h2>Installation</h2>
 <ol>
   <li>Clone the repository: <code>git clone https://github.com/yourusername/animated-website.git</code></li>
   <li>Open the <code>index.html</code> file in your browser to view the website.</li>
 </ol>
 
-<h2>💡 Usage</h2>
+<h2>Usage</h2>
 <p>All animations are managed through GSAP. You can modify and customize the animations by editing the <code>script.js</code> file. GSAP provides a flexible API to create various animations like fades, scaling, rotations, and more.</p>
 
-<h2>🤝 Contributing</h2>
+<h2>Contributing</h2>
 <p>Contributions are welcome! Feel free to open issues or submit a pull request.</p>
 
-<h2>📄 License</h2>
+<h2>License</h2>
 <p>This project is licensed under the <a href="LICENSE" target="_blank">MIT License</a>.</p>
 
+<h2>Future Improvements</h2>
+<p>Adding more advanced scroll-based animations.
+Implementing a smoother transition between different sections.
+Enhancing accessibility features for better user experience.
+</p>
 <p align="center">Made with ❤️ by Shubhankar</p>
 
 </body>
